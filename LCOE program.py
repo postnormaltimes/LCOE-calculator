@@ -4,13 +4,14 @@ import math
 lifetime = 60
 calibration = 8760 / 7446
 designs = {
-    "EPR": {"capacity": 1650, "construction_cost": 4013, "fuel_cycle": 70, "fixed_operations": 96},
+   "EPR": {"capacity": 1650, "construction_cost": 4013, "fuel_cycle": 70, "fixed_operations": 96},
     "ABWR": {"capacity": 1152, "construction_cost": 3963, "fuel_cycle": 103, "fixed_operations": 173},
     "APR1400": {"capacity": 1377, "construction_cost": 2157, "fuel_cycle": 70, "fixed_operations": 124},
     "AP1000": {"capacity": 1100, "construction_cost": 4250, "fuel_cycle": 70, "fixed_operations": 68},
     "VVER": {"capacity": 1122, "construction_cost": 2271, "fuel_cycle": 37, "fixed_operations": 76},
     "CAP1400": {"capacity": 1400, "construction_cost": 2500, "fuel_cycle": 75, "fixed_operations": 177},
-    "PHWR": {"capacity": 700, "construction_cost": 2778, "fuel_cycle": 70, "fixed_operations": 160}
+    "PHWR": {"capacity": 950, "construction_cost": 2778, "fuel_cycle": 70, "fixed_operations": 160},
+    "Harmonized": {"capacity": 1250, "construction_cost": 3133, "fuel_cycle": 70, "fixed_operations": 125}
 }
 
 # Get user inputs
