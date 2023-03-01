@@ -1,8 +1,5 @@
 import math
 
-# Constants
-lifetime = 60
-calibration = 8760 / 7446
 designs = {
     "EPR": {"construction_cost": 4013, "fuel_cycle": 70, "fixed_operations": 96},
     "ABWR": {"construction_cost": 3963, "fuel_cycle": 103, "fixed_operations": 173},
